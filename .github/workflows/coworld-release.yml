@@ -15,7 +15,7 @@
 # Repo secrets required: SOFTMAX_TOKEN (set by coworld-builder's propagate-secrets.yml).
 #
 # The agent reads the outcome back with:
-#   gh run download <run_id> -R Metta-AI/cogame-sokoban -n release-result \
+#   gh run download <run_id> -R softmax-universe/cogame-sokoban -n release-result \
 #     -D /tmp/rr && jq . /tmp/rr/release-result.json
 # Hosted inference uses the platform LLM sidecar without provider secrets.
 name: Coworld release
