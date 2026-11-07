@@ -11,16 +11,16 @@
       "type": "game",
       "image": "{{SOKOBAN_IMAGE}}",
       "run": ["/bin/sokoban"],
-      "source_url": "https://github.com/Metta-AI/cogame-sokoban/tree/main"
+      "source_url": "https://github.com/softmax-universe/cogame-sokoban/tree/main"
     },
     "protocols": {
       "player": {
         "type": "uri",
-        "value": "https://github.com/Metta-AI/cogame-sokoban/blob/main/docs/PROTOCOL.md"
+        "value": "https://github.com/softmax-universe/cogame-sokoban/blob/main/docs/PROTOCOL.md"
       },
       "global": {
         "type": "uri",
-        "value": "https://github.com/Metta-AI/cogame-sokoban/blob/main/docs/PROTOCOL.md"
+        "value": "https://github.com/softmax-universe/cogame-sokoban/blob/main/docs/PROTOCOL.md"
       }
     },
     "docs": {
@@ -197,7 +197,7 @@
       "description": "The reference Sokoban policy: a bounded best-first search over push space that prunes every deadlocking successor, matches crates to marked squares greedily and re-plans from scratch every turn. Same image as the game, selected with PLAYER_SCRIPTED=pusher.",
       "image": "{{SOKOBAN_IMAGE}}",
       "run": ["/bin/sokoban-player"],
-      "source_url": "https://github.com/Metta-AI/cogame-sokoban/tree/main",
+      "source_url": "https://github.com/softmax-universe/cogame-sokoban/tree/main",
       "env": {"PLAYER_SCRIPTED": "pusher", "PLAYER_POLICY_LABEL": "pusher"},
       "resources": {
         "requests": {"cpu": "100m", "memory": "64Mi"},

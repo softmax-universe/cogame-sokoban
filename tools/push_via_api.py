@@ -6,7 +6,7 @@ plain `git push` to `main` of a coworld repo is refused. The playbook's
 documented path is the Git Data API (bootstrapping a brand-new repo through the
 Contents API first, because the Data API cannot create a repo's first object).
 
-    python3 tools/push_via_api.py Metta-AI/cogame-sokoban main "<message>"
+    python3 tools/push_via_api.py softmax-universe/cogame-sokoban main "<message>"
 
 No token is ever printed: everything goes through `gh api`, which reads GH_TOKEN
 itself.
